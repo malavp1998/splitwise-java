@@ -80,9 +80,9 @@ public class ExpenseManager {
         String user1Name = userMap.get(user1).getName();
         String user2Name = userMap.get(user2).getName();
         if (amount < 0) {
-            System.out.println(user1Name + " owes " + user2Name + ": " + Math.abs(amount));
+            System.out.println(user1Name + " owes " + user2Name + ": RS" + Math.abs(amount));
         } else if (amount > 0) {
-            System.out.println(user2Name + " owes " + user1Name + ": " + Math.abs(amount));
+            System.out.println(user2Name + " owes " + user1Name + ": Rs" + Math.abs(amount));
         }
     }
 }
