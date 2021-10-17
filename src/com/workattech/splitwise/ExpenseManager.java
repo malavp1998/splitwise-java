@@ -72,7 +72,7 @@ public class ExpenseManager {
         }
 
         if (isEmpty) {
-            System.out.println("No balances");
+            System.out.println("No balances of any user right now");
         }
     }
 
