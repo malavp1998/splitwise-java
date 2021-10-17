@@ -82,6 +82,7 @@ public class ExpenseManager {
         if (amount < 0) {
             System.out.println(user1Name + " owes " + user2Name + ": RS" + Math.abs(amount));
         } else if (amount > 0) {
+
             System.out.println(user2Name + " owes " + user1Name + ": Rs" + Math.abs(amount));
         }
     }
